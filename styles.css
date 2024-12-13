@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0 3%;
+    background-color: #FFFAFA;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar-items a {
+    padding: 5px;
+    color: black;
+
+}
+
+.landing h1 {
+    text-align: center;
+    font: bold;
+    font-size: 120px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.landing {
+    padding-top: 96px;
+}
+
+.landing img {
+    width: 100%;
+    height: 815px;
+    align-items: center;
+    margin: 52px 0;
+}
+
+.row1,
+.row2,
+.row3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.project img {
+    width: 413.33px;
+    height: 275px;
+    gap: 10px;
+}
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.text{
+    text-align: center;
+    width: 900px;
+    height: 312px;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.paragraph-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 52px;
+    padding-bottom: 52px;
+}
+
+.spacer {
+    height: 154px;
+    width: 646px;
+}
+
+.paragraph {
+    color: #281B1B;
+    width: 646px;
+    height: 160px;
+    font-weight: 400;
+    font-size: 24px;
+}
+footer {
+    max-height: 180px;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer-left {
+    margin-top: 3%;
+    font-size: 28px;
+    color: #2E14149E;
+    font-family: sans-serif;
+}
+
+footer .footer-right {
+    font-size: 20px;
+    margin-top: 3%;
+    text-align: right;
+}
+
+footer .contact-button {
+    background-color: transparent;
+    border-color: rgba(110,73,73,0.2);
+    padding: 14px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
